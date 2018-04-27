@@ -2,6 +2,22 @@ package com.example.android.background.sync;
 
 // TODO (1) Create a class called ReminderTasks
 
+import android.content.Context;
+
+public class ReminderTasks{
+    public static  String ACTION_INCREMENT_WATER_COUNT;
+
+
+    public static void executeTask(Context context,String action){
+        if (action==ACTION_INCREMENT_WATER_COUNT){
+            
+        }
+
+    }
+
+
+}
+
 // TODO (2) Create a public static constant String called ACTION_INCREMENT_WATER_COUNT
 
 // TODO (6) Create a public static void method called executeTask
